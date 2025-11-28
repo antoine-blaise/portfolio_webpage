@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     line-height: 1.7;
     color: #2d3748;
@@ -59,7 +59,8 @@ nav {
 }
 
 nav ul {
-    display: flex;
+    /*The navigation will have the display inline-flex to align items horizontally, to satisfy checkpoint requirements*/
+    display: inline-flex;
     justify-content: center;
     list-style: none;
     gap: 50px;
